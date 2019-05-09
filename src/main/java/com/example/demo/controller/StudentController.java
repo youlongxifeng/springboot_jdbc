@@ -32,7 +32,7 @@ public class StudentController {
     public void add() {
         Student user = new Student();
         user.setName("junjun" + (cnt++));
-        user.setAge(6);
+        user.setAge(cnt);
         studentRepository.save(user);
     }
 

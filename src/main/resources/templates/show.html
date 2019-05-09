@@ -8,7 +8,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"></script>
-    <script th:src="@{/js/show.js}" src="../static/js/show.js"></script>
+    <script src="../static/js/show.js" th:src="@{/js/show.js}"></script>
 </head>
 <body>
 
@@ -62,13 +62,22 @@
     </ul>
 </div>
 
-<div id="bottom-text" class="div-pg-show">
-    <img src="../static/images/banner-01.jpg" th:src="@{/images/banner-01.jpg}" height="200" width="900"/>
 
-    <img src="../static/images/banner-01.jpg" th:src="@{/images/banner-01.jpg}" height="650" width="1920"/></div>
+
+<div id="bottom-text4" class="div-pg-show">
+    <img src="../banner-03.jpg" th:src="@{../banner-03.jpg}"/></div>
+<div id="bottom-text5" class="div-pg-show">
+    <div style="width: 600px;height:400px;background: royalblue;"></div>
+</div>
+<div id="bottom-text" class="div-pg-show">
+    <img src="../static/images/banner-01.jpg" th:src="@{/images/banner-01.jpg}"/>
+
+    <img src="../static/images/banner-01.jpg" th:src="@{/images/banner-01.jpg}"/></div>
 <div id="bottom-text2" class="div-pg-show">
-    <img src="../img/banner-02.jpg" th:src="@{/img/banner-02.jpg}" height="650" width="1920"/></div>
+    <img src="../img/banner-01.jpg" th:src="@{/images/banner-01.jpg}"/></div>
 <div id="bottom-text3" class="div-pg-show">
-    <img src="../banner-03.jpg" th:src="@{/banner-03.jpg}" height="650" width="1920"/></div>
+    <img src="../img/banner-01.jpg" th:src="@{../img/banner-01.jpg}"/></div>
+
+
 </body>
 </html>
